@@ -68,6 +68,7 @@ public class DBConnection {
         }
         return employees;
     }
+    // Udate employee form the database 
     public static boolean updateEmployee(String ID, String Name, String Email, String Phone_no, String Address, String WorkTitle, String Salary, String WorkingStatus) {
         try (Connection conn = getConnection();
              PreparedStatement preparedStatement = conn.prepareStatement(UPDATE_EMPLOYEE_SQL)) {
