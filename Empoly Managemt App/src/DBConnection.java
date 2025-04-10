@@ -7,7 +7,7 @@ public class DBConnection {
     // JDBC URL, username, and password of MySQL server
     private static final String URL = "jdbc:mysql://localhost:3306/employees";  // Replace 'employees' with your DB name
     private static final String USER = "root"; // Replace with your MySQL username
-    private static final String PASSWORD = "Umang1234"; // Replace with your password
+    private static final String PASSWORD = ""; // Replace with your password
     // SQL query to insert employee data
     private static final String INSERT_EMPLOYEE_SQL = "INSERT INTO employee (ID, Name, Email, Phone_no, Address, WorkTitle, Salary, WorkingStatus) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     // SQL query to fetch all employees
